@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">A fictional reconciliation preview</title>
+  <desc id="desc">A fictional design review update, new focus session, unchanged planning event, and optional prune. A personal event is untouched. After simulated apply, the next plan has zero changes.</desc>
+  <rect x="1" y="1" width="1398" height="638" rx="26" fill="#f7faf8" stroke="#d3e0d9"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="64" y="76" font-size="34" font-weight="700" fill="#163833">Preview the reconciliation</text>
+    <text x="65" y="109" font-size="17" fill="#657c73">Fictional data · zero provider requests · explicit apply</text>
+    <rect x="1165" y="49" width="166" height="42" rx="21" fill="#163c38"/>
+    <text x="1201" y="76" font-size="14" font-weight="700" letter-spacing="2" fill="#d9efdf">DRY RUN</text>
+    <g transform="translate(64 146)">
+      <rect width="302" height="87" rx="12" fill="#e7f0eb"/>
+      <text x="24" y="31" font-size="12" letter-spacing="2" fill="#56766b">NEW COPY</text><text x="24" y="67" font-size="29" font-weight="700" fill="#244d40">1</text>
+      <rect x="318" width="302" height="87" rx="12" fill="#e9f0f4"/>
+      <text x="342" y="31" font-size="12" letter-spacing="2" fill="#5d7888">UPDATE</text><text x="342" y="67" font-size="29" font-weight="700" fill="#325d76">1</text>
+      <rect x="636" width="302" height="87" rx="12" fill="#f3ede1"/>
+      <text x="660" y="31" font-size="12" letter-spacing="2" fill="#8d7650">OPTIONAL PRUNE</text><text x="660" y="67" font-size="29" font-weight="700" fill="#81643a">1</text>
+      <rect x="954" width="302" height="87" rx="12" fill="#edf0ee"/>
+      <text x="978" y="31" font-size="12" letter-spacing="2" fill="#6e7d74">PERSONAL EVENT</text><text x="978" y="67" font-size="21" font-weight="700" fill="#52695b">UNTOUCHED</text>
+    </g>
+    <text x="74" y="279" font-size="12" font-weight="700" letter-spacing="2" fill="#718378">EVENT</text>
+    <text x="573" y="279" font-size="12" font-weight="700" letter-spacing="2" fill="#718378">ACTION</text>
+    <text x="863" y="279" font-size="12" font-weight="700" letter-spacing="2" fill="#718378">REASON</text>
+    <path d="M64 294H1320M64 357H1320M64 420H1320M64 483H1320M64 546H1320" stroke="#dce6df"/>
+    <g font-size="18" fill="#29473a">
+      <text x="75" y="334">Design review</text><text x="75" y="397">Focus session</text><text x="75" y="460">Quarterly planning</text><text x="75" y="523">Old appointment</text>
+    </g>
+    <g font-size="15" fill="#6b7d73">
+      <text x="864" y="334">Title changed in Outlook</text><text x="864" y="397">Missing managed copy</text><text x="864" y="460">Already aligned</text><text x="864" y="523">Obsolete managed copy only</text>
+    </g>
+    <g font-size="12" font-weight="700" letter-spacing="1">
+      <rect x="565" y="308" width="114" height="35" rx="17" fill="#e7eef3"/><text x="590" y="331" fill="#3a6e83">UPDATE</text>
+      <rect x="565" y="371" width="114" height="35" rx="17" fill="#e4eee7"/><text x="590" y="394" fill="#397052">CREATE</text>
+      <rect x="565" y="434" width="142" height="35" rx="17" fill="#edf0ee"/><text x="584" y="457" fill="#758279">UNCHANGED</text>
+      <rect x="565" y="497" width="202" height="35" rx="17" fill="#f3ecdf"/><text x="590" y="520" fill="#886d42">PRUNE — OPT IN</text>
+    </g>
+    <circle cx="83" cy="587" r="7" fill="#6ba580"/>
+    <text x="105" y="593" font-size="18" font-weight="600" fill="#315d44">After simulated apply: next reconciliation has 0 changes.</text>
+    <text x="995" y="593" font-size="13" fill="#829289">ILLUSTRATION · FICTIONAL EVENTS</text>
+  </g>
+</svg>

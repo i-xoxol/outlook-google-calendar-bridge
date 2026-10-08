@@ -1,0 +1,17 @@
+[Unit]
+Description=Outlook to Google Calendar Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/apps/outlook-google-calendar-bridge
+ExecStart=%h/apps/outlook-google-calendar-bridge/.venv/bin/python %h/apps/outlook-google-calendar-bridge/calendar_bridge.py --config %h/apps/outlook-google-calendar-bridge/config.toml --apply
+TimeoutStartSec=180
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible issue with fictional data
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach credentials, real events, meeting URLs, or private account/deployment information."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Release, OS, and Python version
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal fictional reproduction
+      description: Include operation mode and counts with sensitive values removed.

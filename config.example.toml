@@ -1,0 +1,22 @@
+[microsoft]
+# Register your OWN public-client app; no shared application ID is supplied.
+client_id = ""
+tenant = "organizations"
+cache = "private/msal_cache.json"
+# Optional: a private cache for the SAME account, tenant, and application.
+fallback_cache = ""
+
+[google]
+client = "private/google-client.json"
+token = "private/google-token.json"
+calendar_id = "primary"
+
+[sync]
+days_past = 30
+days_future = 365
+bridge_name = "calendar-bridge"
+title_suffix = " [Work]"
+color_id = "6"
+copy_details = false
+private_events = true
+max_writes = 25
